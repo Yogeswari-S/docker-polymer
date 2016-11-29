@@ -16,7 +16,7 @@ Or you can run each command in steps:
     $ docker run --rm -ti -v ${PWD}:/app inclusivedesign/polymer bower install
     $ docker run --rm -ti -v ${PWD}:/app inclusivedesign/polymer polymer build
 
-And your project will be available in the 'build' directory.
+And your project will be available in the 'build' directory in the standard bundled/unbundled structure produced by a Polymer [https://github.com/PolymerElements/polymer-starter-kit#build](build).
 
 You can also add it as a shell alias to avoid having to type it every time:
 
