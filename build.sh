@@ -2,6 +2,6 @@
 
 cd /app
 
-yarn install
+npm install
 bower --allow-root install
 polymer build
